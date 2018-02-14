@@ -13,3 +13,6 @@ boxplot(WRDEMAND$NR,WRDEMAND$WR,main="BOx Plot of WR Vs NR",xlab="Region",ylab="
 #for removing yticks
 yaxt="n"
 print("hello")
+#adding tick mark on x axis
+boxplot(Demand$NR,Demand$WR,Demand$SR,xact="n")
+> axis(1,at=1:3,labels=c("NR","WR","SR"))
