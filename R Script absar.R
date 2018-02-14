@@ -12,3 +12,4 @@ boxplot(WRDEMAND$NR,WRDEMAND$WR,main="BOx Plot of WR Vs NR",xlab="Region",ylab="
 boxplot(WRDEMAND$NR,WRDEMAND$WR,main="BOx Plot of WR Vs NR",xlab="Region",ylab="Demand(MW)",col.main="red",col.lab="green",font.main=14,font.lab=7)
 #for removing yticks
 yaxt="n"
+print("hello")
